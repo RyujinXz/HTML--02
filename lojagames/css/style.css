@@ -1,0 +1,37 @@
+/* formatação de toda a página*/
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*cabeçalho do banner*/
+
+header, footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #271a8a;
+    text-decoration: underline;
+}
+
+.pro img {
+    margin: 10px;
+    border: 2px solid #271a8a;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pro img:hover {
+    transform: scale(1.1); /* Efeito de zoom */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra ao redor da imagem */
+}
