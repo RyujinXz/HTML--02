@@ -28,6 +28,7 @@ header nav a:hover {
     margin: 10px;
     border: 2px solid #271a8a;
     width: 200px;
+    height: 300px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -35,3 +36,4 @@ header nav a:hover {
     transform: scale(1.1); /* Efeito de zoom */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra ao redor da imagem */
 }
+
