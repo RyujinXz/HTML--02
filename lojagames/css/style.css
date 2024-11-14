@@ -1,17 +1,33 @@
-/* formatação de toda a página*/
+/* formatação de todo o corpo da página */
 body {
-    background-color: #fff;
+    background-color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
-}
+    margin: 0;
+    padding: 0;
+    /* adicionar espaçamento no topo para compensar o header fixo */
+    padding-top: 150px; }
 
 /*cabeçalho do banner*/
 
-header, footer {
-    background-color: #000;
+/* formatação em dois tags */
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1000;
+}
+
+footer {
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
+
 
 header nav a {
     color: #fff;
@@ -37,3 +53,9 @@ header nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra ao redor da imagem */
 }
 
+
+
+/* compensar o header fixo ao rolar até as seções */
+section {
+    scroll-margin-top: 120px;
+}
