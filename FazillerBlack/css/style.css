@@ -1,0 +1,202 @@
+/* Corpo da Página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+} 
+
+.home-icon {
+    position: fixed; /* Fixa o ícone na tela */
+    bottom: 20px;    /* Distância do fundo da página */
+    right: 20px;     /* Distância da direita da página */
+    background-color: #ffcc00; /* Cor de fundo */
+    color: white;    /* Cor do ícone */
+    border-radius: 50%; /* Forma circular */
+    padding: 15px;    /* Tamanho do ícone */
+    font-size: 24px;  /* Tamanho do ícone */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombrinha para o ícone */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+  }
+  
+  .home-icon:hover {
+    background-color: #e0a800; /* Cor de fundo quando o mouse passar */
+  }
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffcc00;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+header .navbar-nav .nav-link {
+    color: #f5f5f5 !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    margin: 0 15px !important;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+header .navbar-nav .nav-link:hover {
+    color: #ffcc00 !important; /* Cor de hover */
+    text-decoration: underline !important;
+  }
+
+/* Seção Principal do Site */
+section {
+    padding: 40px 20px;
+    text-align: left;
+}
+
+/* Estilização de Parágrafo */
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.pro img {
+  margin: 15px; /* Espaço entre as imagens */
+  border: 3px solid #4a3aff; /* Cor da borda mais vibrante */
+  border-radius: 10px; /* Bordas arredondadas */
+  width: 220px; /* Largura ajustada */
+  height: 330px; /* Altura proporcional */
+  transition: transform 0.4s ease, box-shadow 0.4s ease; /* Transição mais suave */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra inicial mais leve */
+}
+
+.pro img:hover {
+  transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Sombra mais intensa ao passar o mouse */
+  border-color: #f0c14b; /* Mudança de cor da borda ao passar o mouse */
+  cursor: pointer; /* Cursor indicando interatividade */
+}
+
+main h2 {
+  text-align: center; /* Centraliza o título */
+  background: linear-gradient(to right, #271a8a, #4a3aff); /* Gradiente para o fundo */
+  color: #fff; /* Cor do texto */
+  font-size: 2.5rem; /* Tamanho do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+  text-transform: uppercase; /* Deixa o texto em maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  margin: 20px auto; /* Margem superior/inferior e centralização horizontal */
+  width: fit-content; /* Adapta a largura ao texto */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza a interação */
+}
+
+main h2:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra */
+  background: linear-gradient(to right, #4a3aff, #f0c14b); /* Gradiente alternado */
+  cursor: pointer; /* Indica interatividade */
+}
+
+
+/* compensar o header fixo ao rolar até as seções */
+section {
+    scroll-margin-top: 120px;
+}
+
+#game .pro, #console .pro, #caneca .pro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Preenche a altura disponível */
+}
+
+/* Estilização Geral da Seção */
+#sobre {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a52);
+    color: #f5f5f5;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilo do Título */
+  #sobre h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffcc00;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Estilo dos Parágrafos */
+  #sobre p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-left: 5px solid #ffcc00;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para Destaques */
+  #sobre p strong {
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  
+  #sobre p a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  #sobre p a:hover {
+    text-decoration: underline;
+  }
+  
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+aside h3 {
+  text-align: center; /* Centraliza o título */
+  background: linear-gradient(to right, #271a8a, #4a3aff); /* Gradiente para o fundo */
+  color: #fff; /* Cor do texto */
+  font-size: 2.5rem; /* Tamanho do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+  text-transform: uppercase; /* Deixa o texto em maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  margin: 20px auto; /* Margem superior/inferior e centralização horizontal */
+  width: fit-content; /* Adapta a largura ao texto */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza a interação */
+}
+
+aside h3:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra */
+  background: linear-gradient(to right, #4a3aff, #f0c14b); /* Gradiente alternado */
+  cursor: pointer; /* Indica interatividade */
+}
