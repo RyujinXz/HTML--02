@@ -1,0 +1,114 @@
+/* General Page Background */
+body {
+  background-color: #121212 !important;
+  color: #E1E1E1 !important;
+
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background-color: #1C1C1C;
+  border-bottom: 1px solid #333;
+  margin-top: 20px;  
+}
+
+.navbar .navbar-toggler {
+  background-color: #333 !important;
+}
+
+/* Styling for nav-link (square box effect) */
+.nav-link {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #333; /* Dark grey background for nav links */
+  color: #B0BEC5; /* Light grey text for links */
+  border: 2px solid transparent;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+.nav-link:hover {
+  background-color: #4CAF50; /* Soft green accent color on hover */
+  color: white; /* White text when hovered */
+  border-color: #4CAF50; /* Match border with hover color */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow on hover */
+}
+
+/* For links inside dropdown */
+.navbar .dropdown-menu {
+  background-color: #1C1C1C; /* Same dark background for dropdown */
+  border-color: #333; /* Border color for the dropdown */
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #4CAF50; /* Same hover color for dropdown items */
+  color: white;
+}
+
+/* Header (logo and title) */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #1C1C1C; /* Dark header background */
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  border-radius: 50%; /* Circular logo */
+  margin-right: 20px;
+}
+
+h1 {
+  color: #F1F1F1 !important; /* Light gray color for the title */
+  font-size: 36px !important;
+  font-weight: bold !important;
+  margin: 0 !important;
+}
+
+/* Footer */
+footer {
+  background-color: #121212; /* Dark footer background */
+  color: #B0BEC5; /* Light gray footer text */
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+} 
+
+.marca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#productCarousel {
+  margin: 20px 0; /* Optional: Adjust margin for positioning */
+}
+
+.carousel-item img {
+  height: 500px; /* Adjust image height */
+  width: 100% !important;
+  object-fit: contain
+}
+
+.carousel-iner {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+}
+
+.carousel-caption h5 {
+  font-size: 2rem; /* Title font size */
+  color: white;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem; /* Description font size */
+  color: white;
+}
