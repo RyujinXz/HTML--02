@@ -5,30 +5,12 @@ body {
     line-height: 1.6;
 } 
 
-.home-icon {
-    position: fixed; /* Fixa o ícone na tela */
-    bottom: 20px;    /* Distância do fundo da página */
-    right: 20px;     /* Distância da direita da página */
-    background-color: #ffcc00; /* Cor de fundo */
-    color: white;    /* Cor do ícone */
-    border-radius: 50%; /* Forma circular */
-    padding: 15px;    /* Tamanho do ícone */
-    font-size: 24px;  /* Tamanho do ícone */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombrinha para o ícone */
-    text-decoration: none; /* Remove underline */
-    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
-  }
-  
-  .home-icon:hover {
-    background-color: #e0a800; /* Cor de fundo quando o mouse passar */
-  }
-
 /* Header */
 header {
     background-color: rgba(0, 0, 0, 0.8);
     color: #ffcc00;
     padding: 20px 0;
-    text-align: center;
+    text-align: justify;
     width: 100%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
